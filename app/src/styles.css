@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #735DA5;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1em;
+}
+h1 {
+    font-size: 4em;
+    color:whitesmoke;
+}
+label {
+    font-size: 1.5em;
+}
+input {
+    padding: 10px;
+    border: none;
+    margin: 20px;
+    width: 20%;
+    border-radius: 5px;
+}
+button {
+    background-color: #f0f0f0;
+    color: #1f1e60;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+button:hover {
+    background-color: #1f1e60;
+    color: #f0f0f0;
+}
+.app-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 1em;
+}
